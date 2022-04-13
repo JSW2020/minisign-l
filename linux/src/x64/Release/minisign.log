@@ -1,0 +1,29 @@
+﻿  base64.c
+  get_line.c
+  helpers.c
+d:\visual 工程文件\minisign\minisign\helpers.c(244): warning C4013: “asprintf”未定义；假设外部返回 int
+  minisign.c
+d:\softwares\visual studio 2017\vc\tools\msvc\14.15.26726\include\getopt.h(59): warning C4081: 应输入“newline”；找到“;”
+d:\visual 工程文件\minisign\minisign\sm2.h(23): warning C4091: “typedef ”: 没有声明变量时忽略“ECC”的左侧
+d:\visual 工程文件\minisign\minisign\minisign.c(477): warning C4090: “函数”: 不同的“const”限定符
+d:\visual 工程文件\minisign\minisign\minisign.c(477): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\minisign.c(525): warning C4090: “函数”: 不同的“const”限定符
+d:\visual 工程文件\minisign\minisign\minisign.c(525): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\minisign.c(677): warning C4090: “函数”: 不同的“const”限定符
+d:\visual 工程文件\minisign\minisign\minisign.c(677): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\minisign.c(746): warning C4090: “函数”: 不同的“const”限定符
+d:\visual 工程文件\minisign\minisign\minisign.c(746): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\minisign.c(782): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\visual 工程文件\minisign\minisign\minisign.c(870): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\visual 工程文件\minisign\minisign\minisign.c(1249): warning C4090: “函数”: 不同的“const”限定符
+  sm2.c
+d:\visual 工程文件\minisign\minisign\sm2.h(23): warning C4091: “typedef ”: 没有声明变量时忽略“ECC”的左侧
+d:\visual 工程文件\minisign\minisign\sm2.c(163): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\sm2.c(231): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\sm2.c(547): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  sm3.c
+LINK : warning LNK4098: 默认库“MSVCRTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  正在生成代码
+  All 81 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  minisign.vcxproj -> D:\visual 工程文件\minisign\x64\Release\minisign.exe

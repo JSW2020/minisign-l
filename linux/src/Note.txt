@@ -1,0 +1,48 @@
+���� asprintf.h�ļ�
+https://stackoverflow.com/questions/40159892/using-asprintf-on-windows
+
+minisign.c��fseeko,fteelo--->fseek,ftell
+
+r1:814b0f24 305cb564 74cd6143 51612629 81250f91 ee6d8d06 b38fa039 65e93148
+
+
+s1:7f27483f b41fb8e4 88d2dffa 677bb53f 419c716b 1add5f52 39abc9cc d9a0a8fd
+
+78f50663 12514eb4 1f5dbbb2 d2cb01d7 fc69a1ab 1ba84f46 b64087e4 3a20e438
+
+
+18e60fa2 fe466ace ae51c195 06551f5a c0ca0ff4 95241f0d ddbdda92 bbc8c714
+
+static unsigned char *
+message_load(size_t *message_len, const char *message_file, int hashed)
+{
+    FILE          *fp;
+    unsigned char *message;
+    __off64_t          message_len_;
+
+    if (hashed != 0) {
+        return message_load_hashed(message_len, message_file);
+    }
+    if ((fp = fopen(message_file, "rb")) == NULL ||
+        fseeko64(fp, 0, SEEK_END) != 0 ||
+        (message_len_ = ftello64(fp)) == (__off64_t) -1) {
+        exit_err(message_file);
+    }
+    assert(hashed == 0);
+    if (message_len_ > (__off64_t) 1L << 30) {
+        exit_msg("Data has to be smaller than 1 GB. Or use the -H option.");
+    }
+    if ((uintmax_t) message_len_ > (uintmax_t) SIZE_MAX ||
+        message_len_ < (__off64_t) 0) {
+        abort();
+    }
+    message = xmalloc((*message_len = (size_t) message_len_));
+    rewind(fp);
+    if (*message_len > 0U &&
+        fread(message, *message_len, (size_t) 1U, fp) != 1U) {
+        exit_msg("Error while loading the message");
+    }
+    xfclose(fp);
+
+    return message;
+}

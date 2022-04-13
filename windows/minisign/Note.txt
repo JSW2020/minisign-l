@@ -1,0 +1,4 @@
+增加 asprintf.h文件
+https://stackoverflow.com/questions/40159892/using-asprintf-on-windows
+
+minisign.c：fseeko,fteelo--->_fseeki64,_ftelli64

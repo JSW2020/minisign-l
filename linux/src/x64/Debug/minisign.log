@@ -1,0 +1,32 @@
+﻿  base64.c
+  get_line.c
+  helpers.c
+d:\visual 工程文件\minisign\minisign\helpers.c(244): warning C4013: “asprintf”未定义；假设外部返回 int
+  minisign.c
+d:\softwares\visual studio 2017\vc\tools\msvc\14.15.26726\include\getopt.h(59): warning C4081: 应输入“newline”；找到“;”
+d:\visual 工程文件\minisign\minisign\sm2.h(23): warning C4091: “typedef ”: 没有声明变量时忽略“ECC”的左侧
+d:\visual 工程文件\minisign\minisign\minisign.c(472): warning C4090: “函数”: 不同的“const”限定符
+d:\visual 工程文件\minisign\minisign\minisign.c(472): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\minisign.c(508): warning C4090: “函数”: 不同的“const”限定符
+d:\visual 工程文件\minisign\minisign\minisign.c(508): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\minisign.c(509): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\minisign.c(646): warning C4090: “函数”: 不同的“const”限定符
+d:\visual 工程文件\minisign\minisign\minisign.c(646): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\minisign.c(704): warning C4090: “函数”: 不同的“const”限定符
+d:\visual 工程文件\minisign\minisign\minisign.c(704): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\minisign.c(730): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\visual 工程文件\minisign\minisign\minisign.c(818): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\visual 工程文件\minisign\minisign\minisign.c(922): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\visual 工程文件\minisign\minisign\minisign.c(927): warning C4101: “kdf_memlimit”: 未引用的局部变量
+d:\visual 工程文件\minisign\minisign\minisign.c(929): warning C4101: “stream”: 未引用的局部变量
+d:\visual 工程文件\minisign\minisign\minisign.c(928): warning C4101: “kdf_opslimit”: 未引用的局部变量
+d:\visual 工程文件\minisign\minisign\minisign.c(1279): warning C4090: “函数”: 不同的“const”限定符
+  sm2.c
+d:\visual 工程文件\minisign\minisign\sm2.h(23): warning C4091: “typedef ”: 没有声明变量时忽略“ECC”的左侧
+d:\visual 工程文件\minisign\minisign\sm2.c(163): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\sm2.c(231): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\visual 工程文件\minisign\minisign\sm2.c(547): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  sm3.c
+  正在生成代码...
+d:\visual 工程文件\minisign\minisign\minisign.c(328): warning C4715: “pubkey_load”: 不是所有的控件路径都返回值
+  minisign.vcxproj -> D:\visual 工程文件\minisign\x64\Debug\minisign.exe
